@@ -22,11 +22,11 @@ Save a decision in Chat. Retrieve it in Cowork. Search for it from Code. All loc
 
 ## Install
 
-```bash
-claude mcp add acheron -- npx -y acheron-mcp-server
-```
+### Claude Desktop (recommended)
 
-Or add to Claude Desktop config (`Settings > Developer > Edit Config`):
+This connects Acheron to **all surfaces** — Chat, Code, Cowork, and Dispatch. This is the recommended setup for full cross-surface bridging.
+
+Open Claude Desktop → `Settings` → `Developer` → `Edit Config`, then add:
 
 ```json
 {
@@ -37,6 +37,16 @@ Or add to Claude Desktop config (`Settings > Developer > Edit Config`):
     }
   }
 }
+```
+
+Restart Claude Desktop.
+
+### Claude Code only
+
+If you only need Acheron in Claude Code (terminal / IDE):
+
+```bash
+claude mcp add acheron -- npx -y acheron-mcp-server
 ```
 
 Requires Node.js 20+. Native build tools may be needed for better-sqlite3 ([details](#troubleshooting)).
