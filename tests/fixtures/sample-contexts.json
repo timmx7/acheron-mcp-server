@@ -1,0 +1,44 @@
+[
+  {
+    "content": "Use Next.js 15 App Router for the frontend",
+    "type": "decision",
+    "source_surface": "chat",
+    "project": "acme-site",
+    "tags": ["frontend", "nextjs", "architecture"]
+  },
+  {
+    "content": "Prefer French informal for conversation, English for technical terms",
+    "type": "preference",
+    "source_surface": "chat",
+    "project": null,
+    "tags": ["language", "format"]
+  },
+  {
+    "content": "Stripe webhook clock skew tolerance increased to 600s after timeout incidents",
+    "type": "insight",
+    "source_surface": "code",
+    "project": "payments",
+    "tags": ["stripe", "bugfix", "webhook"]
+  },
+  {
+    "content": "src/lib/auth.ts handles all JWT validation and session management",
+    "type": "file_ref",
+    "source_surface": "code",
+    "project": "acme-site",
+    "tags": ["auth", "jwt"]
+  },
+  {
+    "content": "Deploy process: merge to main → CI builds → staging auto-deploy → manual prod promote",
+    "type": "workflow",
+    "source_surface": "cowork",
+    "project": "acme-site",
+    "tags": ["deploy", "ci-cd"]
+  },
+  {
+    "content": "Team standup is at 10am CET every weekday",
+    "type": "note",
+    "source_surface": "chat",
+    "project": null,
+    "tags": ["team", "schedule"]
+  }
+]
