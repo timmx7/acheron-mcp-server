@@ -2,6 +2,8 @@
 
 **Shared persistent memory across Claude Chat, Code, and Cowork.**
 
+[![acheron-mcp-server MCP server](https://glama.ai/mcp/servers/timmx7/acheron-mcp-server/badges/card.svg)](https://glama.ai/mcp/servers/timmx7/acheron-mcp-server)
+
 ```
   ┌───────────┐     ┌───────────┐     ┌───────────┐
   │   Chat    │     │   Code    │     │  Cowork   │
